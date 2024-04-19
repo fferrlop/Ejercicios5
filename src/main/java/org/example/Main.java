@@ -21,7 +21,7 @@ public class Main {
         System.out.println("Introduce el valor inicial del rango:");
         int a = scanner.nextInt();
 
-        System.out.println("Introduce el valor final del rango:");
+        System.out.println("Introduce el valor final del rango: ");
         int d = scanner.nextInt();
 
         RangoNumNat.imprimirRango(a, d);
