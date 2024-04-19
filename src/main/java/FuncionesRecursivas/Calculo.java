@@ -1,4 +1,4 @@
-package org.example;
+package FuncionesRecursivas;
 
 public class Calculo {
     public static int calcularFuncion(int n, int k) {

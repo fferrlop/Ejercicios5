@@ -1,4 +1,4 @@
-package org.example;
+package FuncionesRecursivas;
 
 public class MultiplicacionRecu {
     public static int potencia(int x, int y) {

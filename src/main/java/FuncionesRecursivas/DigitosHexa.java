@@ -1,4 +1,4 @@
-package org.example;
+package FuncionesRecursivas;
 
 public class DigitosHexa {
     public static int hexToDecimal(String hex, int length) {

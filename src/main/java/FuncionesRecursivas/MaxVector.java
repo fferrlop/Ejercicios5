@@ -1,4 +1,4 @@
-package org.example;
+package FuncionesRecursivas;
 
 public class MaxVector {
     public static int maximoVector(int[] vector, int inicio, int fin) {

@@ -1,4 +1,4 @@
-package org.example;
+package FuncionesRecursivas;
 
 public class DigitosNumNat {
     public static int contarDigitos(int n) {

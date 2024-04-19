@@ -1,4 +1,4 @@
-package org.example;
+package FuncionesRecursivas;
 
 import java.util.Scanner;
 

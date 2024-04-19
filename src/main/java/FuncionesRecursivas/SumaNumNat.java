@@ -1,4 +1,4 @@
-package org.example;
+package FuncionesRecursivas;
 
 public class SumaNumNat {
     public static int sumaNumerosNaturales(int n) {
