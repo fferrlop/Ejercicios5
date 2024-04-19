@@ -19,5 +19,16 @@ public class Main {
         int d = scanner.nextInt();
 
         RangoNumNat.imprimirRango(a, d);
+
+        System.out.println("\n _______________________________________________________________________");
+
+        System.out.println("Introduce un número para contar sus dígitos:");
+        int num = scanner.nextInt();
+        int digitCount = DigitosNumNat.contarDigitos(num);
+        System.out.println("El número " + num + " tiene " + digitCount + " dígitos.");
+
+        System.out.println("\n _______________________________________________________________________");
+
+
     }
 }
