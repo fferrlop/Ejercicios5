@@ -29,6 +29,10 @@ public class Main {
 
         System.out.println("\n _______________________________________________________________________");
 
-
+        System.out.println("Introduce la base y el exponente para calcular la potencia:");
+        int x = scanner.nextInt();
+        int y = scanner.nextInt();
+        int result = MultiplicacionRecu.potencia(x, y);
+        System.out.println(x + " elevado a " + y + " es igual a " + result);
     }
 }
