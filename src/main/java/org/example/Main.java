@@ -56,6 +56,14 @@ public class Main {
         System.out.println("El valor decimal de la cadena hexadecimal " + hex + " es: " + decimal);
 
 
+        System.out.println("\n _______________________________________________________________________");
+
+        System.out.println("Introduce los valores de n y k para calcular C(n, k):");
+        int n = scanner.nextInt();
+        int k = scanner.nextInt();
+        int resultado = Calculo.calcularFuncion(n, k);
+        System.out.println("C(" + n + ", " + k + ") es igual a " + result);
+
         scanner.close();
     }
 }
