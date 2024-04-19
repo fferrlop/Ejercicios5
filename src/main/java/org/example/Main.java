@@ -34,5 +34,20 @@ public class Main {
         int y = scanner.nextInt();
         int result = MultiplicacionRecu.potencia(x, y);
         System.out.println(x + " elevado a " + y + " es igual a " + result);
+
+        System.out.println("\n _______________________________________________________________________");
+
+        System.out.println("Introduce el tamaño del vector:");
+        int size = scanner.nextInt();
+        int[] vector = new int[size];
+        System.out.println("Introduce los elementos del vector:");
+        for (int i = 0; i < size; i++) {
+            vector[i] = scanner.nextInt();
+        }
+        int maximo = MaxVector.maximoVector(vector, 0, size - 1);
+        System.out.println("El valor máximo del vector es: " + maximo);
+
+
+        scanner.close();
     }
 }
