@@ -48,6 +48,14 @@ public class Main {
         System.out.println("El valor máximo del vector es: " + maximo);
 
 
+        System.out.println("\n _______________________________________________________________________");
+
+        System.out.println("Introduce una cadena de dígitos hexadecimales:");
+        String hex = scanner.next();
+        int decimal = DigitosHexa.hexToDecimal(hex, hex.length());
+        System.out.println("El valor decimal de la cadena hexadecimal " + hex + " es: " + decimal);
+
+
         scanner.close();
     }
 }
